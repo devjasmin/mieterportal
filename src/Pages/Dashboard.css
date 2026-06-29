@@ -1,0 +1,77 @@
+.title {
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.subtitle {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.damage {
+  background-color: rgb(148, 136, 117);
+  color: black;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.damage:hover {
+  background-color: rgb(242, 154, 13);
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.lcontract {
+  background-color: rgb(148, 136, 117);
+  color: black;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lcontract:hover {
+  background-color: rgb(52, 76, 174);
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact {
+  background-color: rgb(148, 136, 117);
+  color: black;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: rgb(227, 56, 44);
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.title {
+  margin: 1.8rem;
+  padding: 1rem;
+  font-size: 5rem;
+  align-items: center;
+}
+
+.subtitle {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.formular {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  padding: 1rem;
+}
+
+input {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+span {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+textarea {
+  width: 100%;
+  max-width: 300px;
+  max-height: 150px;
+  resize: vertical;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-send {
+  margin: 2rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: var(--bg);
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px white;
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  background-color: #421212;
+  color: white;
+}
+
+.btn-back {
+  margin: 2rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: var(--bg);
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px white;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #8782e0;
+  color: white;
+}

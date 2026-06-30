@@ -1,16 +1,16 @@
 .title {
   margin: 1.8rem;
   padding: 1rem;
-  font-size: 5rem;
+  font-size: 2.5rem;
   align-items: center;
 }
 
 .subtitle {
   margin: 1rem;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
-.formular {
+.form-group {
   display: flex;
   flex-direction: column;
   place-content: center;
@@ -18,7 +18,12 @@
   padding: 1rem;
 }
 
-input {
+.form-group label {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.form-group input {
   font-size: 1.2rem;
   border-radius: 5px;
   padding: 0.8rem;

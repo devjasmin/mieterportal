@@ -60,42 +60,51 @@ function DamageReport() {
       <div className="subtitle">
         Liegenschaft 5430.001 - Neuenburgerstrasse 45, 9000 Musterdorf
       </div>
-      <div className="formular">
-        <span>Vorname: </span>
+      <div className="form-group">
+        <label htmlFor="firstName">Vorname: </label>
         <input
+          id="firstName"
           name="firstName"
           value={form.firstName}
           onChange={handleChange}
           placeholder="Vorname"
         />
-        <br />
-        <span>Name: </span>
+      </div>
+      <div className="form-group">
+        <label htmlFor="lastName">Nachname: </label>
         <input
+          id="lastName"
           name="lastName"
           value={form.lastName}
           onChange={handleChange}
           placeholder="Name"
         />
-        <br />
-        <span>Problem: </span>
+      </div>
+      <div className="form-group">
+        <label htmlFor="problem">Problem: </label>
         <input
+          id="problem"
           name="what"
           value={form.what}
           onChange={handleChange}
           placeholder="z.B. Kühlschrank"
         />
-        <br />
-        <span>seit wann: </span>
+      </div>
+      <div className="form-group">
+        <label htmlFor="date">seit wann: </label>
         <input
+          id="date"
           type="date"
           value={form.date}
           name="date"
           onChange={handleChange}
           placeholder="geben Sie ein Datum ein"
         />
-        <br />
-        <span> Notizen: </span>
+      </div>
+      <div className="form-group">
+        <label htmlFor="notes"> Beschreibung: </label>
         <textarea
+          id="notes"
           name="notes"
           value={form.notes}
           placeholder="geben Sie eine Notiz ein"

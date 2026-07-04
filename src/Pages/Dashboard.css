@@ -1,12 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .title {
   padding: 1rem;
   margin-top: 2rem;
   font-size: 4rem;
 }
 
-.subtitle {
+.adresse {
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.subadresse {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.news-section {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.news-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.news-item {
+  font-size: 1rem;
+}
+
+.access-section {
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 2rem;
 }
 
 .button-container {
@@ -77,12 +113,22 @@
   cursor: pointer;
 }
 
+.info-section {
+  padding: 1rem;
+  margin: 1rem;
+}
+
 .info-container {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+.info-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .info-card {

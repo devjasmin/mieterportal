@@ -2,7 +2,7 @@ name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches: ["master"] # Startet den Deploy, sobald du auf 'main' pushst
+    branches: ["master"] # Startet den Deploy, sobald du auf 'master' pushst
 
 # Erlaubt dem Workflow, die GitHub Pages Seite zu überschreiben
 permissions:
@@ -27,7 +27,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-size: 20
+          node-version: 20
           cache: "npm"
 
       - name: Install dependencies

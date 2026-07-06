@@ -13,12 +13,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/contract",
-    element: <ComingSoon title="Mietvertrag" />,
+    element: <ComingSoon title="Dokumente" />,
   },
 
   {
     path: "/contact",
-    element: <ComingSoon title="Kontakt" />,
+    element: <ComingSoon title="Marktplatz" />,
   },
 ]);
 

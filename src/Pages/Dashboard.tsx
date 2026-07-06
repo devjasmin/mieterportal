@@ -31,7 +31,7 @@ function Dashboard() {
           <button className="lcontract">Dokumente ansehen</button>
         </Link>
         <Link to="/contact">
-          <button className="contact">Mitteilungen ansehen</button>
+          <button className="contact">Marktplatz ansehen</button>
         </Link>
       </div>
       <div className="info-section">

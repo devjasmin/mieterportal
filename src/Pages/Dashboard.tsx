@@ -13,10 +13,14 @@ function Dashboard() {
       </div>
       <div className="news-section">
         <div className="news-title">Aktuelles</div>
-        <div className="news-item">Lift wird am Dienstag gewartet</div>
-        <div className="news-item">Nebenkostenabrechnung verfügbar</div>
-        <div className="news-item">Neue Hausordnung ab 01.07.2026</div>
-        <div className="news-item">Gartenabfuhrtermin: 15.07.2026</div>
+        <div className="news-list">
+          <div className="news-card">
+            Lift wird am Dienstag, 30.07.2026 gewartet
+          </div>
+          <div className="news-card">Nebenkostenabrechnung verfügbar.</div>
+          <div className="news-card">Neue Hausordnung gültig ab 01.07.2026</div>
+          <div className="news-card">Gartenabfuhr am 15.07.2026</div>
+        </div>
       </div>
       <div className="access-section">Schnellzugriff</div>
       <div className="button-container">

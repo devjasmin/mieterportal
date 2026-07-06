@@ -6,23 +6,21 @@ body {
 
 .title {
   padding: 1rem;
-  margin-top: 2rem;
   font-size: 4rem;
 }
 
 .adresse {
   padding: 1rem;
-  margin-top: 1rem;
 }
 
 .subtitle {
   margin-top: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .subadresse {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .news-section {
@@ -32,16 +30,31 @@ body {
 
 .news-title {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-.news-item {
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.news-card {
+  background-color: rgb(235, 183, 94);
+  padding: 1rem;
   font-size: 1rem;
+  border: 2px solid rgb(235, 183, 94);
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 16px;
+  transition: all 0.3s ease;
 }
 
 .access-section {
   padding: 1rem;
-  margin: 2rem;
+  margin: 0.5rem;
   font-size: 2rem;
 }
 
@@ -51,8 +64,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
-  margin-top: 2rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 .damage {
@@ -136,4 +148,9 @@ body {
   border-radius: 5px;
   width: 300px;
   padding: 0.5rem;
+}
+@media (min-width: 768px) {
+  .news-list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr 1fr));
+  }
 }

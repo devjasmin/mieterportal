@@ -8,7 +8,7 @@ function Dashboard() {
       <div className="adresse">
         <div className="subtitle"> Herzlich Willkommen Max </div>
         <div className="subadresse">
-          Musterstrasse 123, 2. OG rechts, 8000 Zürich
+          Bernstrasse 12, 2. OG rechts, 8055 Zürich
         </div>
       </div>
       <div className="news-section">
@@ -47,7 +47,7 @@ function Dashboard() {
             <p>Max Derungs</p>
             <a href="tel:+41795682163">079 568 21 63</a>
           </div>
-          <div className="info-card">
+          <div className="info-card-emergency">
             <h3>NOTFALL</h3>
             <p>24h Pikettdienst</p>
             <a href="tel:+41800111222">0800 111 222</a>

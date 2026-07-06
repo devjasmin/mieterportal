@@ -1,6 +1,6 @@
 :root {
-  --text: #c2c0c5;
-  --bg: #8b3636;
+  --text: #2d3748;
+  --bg: #c2c0c5;
   --border: #e5e4e7;
 
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
@@ -12,10 +12,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
 }
 
 #root {
@@ -28,8 +24,4 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
 }

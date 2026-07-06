@@ -58,10 +58,10 @@ function DamageReport() {
     <section>
       <div className="title">Schadensmeldung</div>
       <div className="subtitle">
-        Liegenschaft 5430.001 - Neuenburgerstrasse 45, 9000 Musterdorf
+        Liegenschaft 5430.001 - Bernstrasse 12, 8055 Zürich
       </div>
       <div className="form-group">
-        <label htmlFor="firstName">Vorname: </label>
+        <label htmlFor="firstName">Vorname </label>
         <input
           id="firstName"
           name="firstName"
@@ -71,7 +71,7 @@ function DamageReport() {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="lastName">Nachname: </label>
+        <label htmlFor="lastName">Nachname </label>
         <input
           id="lastName"
           name="lastName"
@@ -81,7 +81,7 @@ function DamageReport() {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="problem">Problem: </label>
+        <label htmlFor="problem">Problem </label>
         <input
           id="problem"
           name="what"
@@ -91,7 +91,7 @@ function DamageReport() {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="date">seit wann: </label>
+        <label htmlFor="date">seit wann </label>
         <input
           id="date"
           type="date"
@@ -102,7 +102,7 @@ function DamageReport() {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="notes"> Beschreibung: </label>
+        <label htmlFor="notes"> Beschreibung </label>
         <textarea
           id="notes"
           name="notes"

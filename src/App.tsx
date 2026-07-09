@@ -5,7 +5,7 @@ import DamageReport from "./Pages/DamageReport";
 import ComingSoon from "./Pages/ComingSoon";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Dashboard /> },
+  { path: "/mieterportal/", element: <Dashboard /> },
 
   {
     path: "/damage-report",

@@ -24,13 +24,13 @@ function Dashboard() {
       </div>
       <div className="access-section">Schnellzugriff</div>
       <div className="button-container">
-        <Link to="/damage-report">
+        <Link to="/mieterportal/damage-report">
           <button className="damage">Schaden melden</button>
         </Link>
-        <Link to="/contract">
+        <Link to="/mieterportal/contract">
           <button className="lcontract">Dokumente ansehen</button>
         </Link>
-        <Link to="/contact">
+        <Link to="/mieterportal/contact">
           <button className="contact">Marktplatz ansehen</button>
         </Link>
       </div>

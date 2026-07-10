@@ -6,7 +6,7 @@ function DamageReport() {
   const navigate = useNavigate();
 
   const handleBack = () => {
-    navigate("/");
+    navigate("/mieterportal/");
     console.log("Button wurde angeklickt");
     /*alert("Zurück zu Dashboard);*/
   };

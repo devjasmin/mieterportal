@@ -6,7 +6,7 @@ function ComingSoon({ title }: { title: string }) {
     <>
       <h2> Seite "{title}" wird bald aufgeschaltet </h2>
 
-      <Link to="/" className="btn-lcontract-back">
+      <Link to="/mieterportal/" className="btn-lcontract-back">
         Zurück zum Dashboard
       </Link>
     </>

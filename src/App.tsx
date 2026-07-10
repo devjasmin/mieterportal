@@ -8,16 +8,16 @@ const router = createBrowserRouter([
   { path: "/mieterportal/", element: <Dashboard /> },
 
   {
-    path: "/damage-report",
+    path: "/mieterportal/damage-report",
     element: <DamageReport />,
   },
   {
-    path: "/contract",
+    path: "/mieterportal/contract",
     element: <ComingSoon title="Dokumente" />,
   },
 
   {
-    path: "/contact",
+    path: "/mieterportal/contact",
     element: <ComingSoon title="Marktplatz" />,
   },
 ]);
